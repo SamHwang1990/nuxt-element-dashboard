@@ -14,11 +14,13 @@ const config = {
   env: {
     mock: {
       '/deepexi-tenant': mockServer,
-      '/deepexi-permission': mockServer
+      '/deepexi-permission': mockServer,
+      '/hiring': 'http://yapi.demo.qunar.com/mock/56514'
     },
     dev: {
       '/deepexi-tenant': apiServer,
-      '/deepexi-permission': apiServer
+      '/deepexi-permission': apiServer,
+      '/hiring': 'http://yapi.demo.qunar.com/mock/56514'
     }
   }
 }
